@@ -1,8 +1,11 @@
 function init() {
     // formingMagicSquareMain();
     // pickingNumbersMain();
-    hardleRaceMain();
+    // hardleRaceMain();
     // designerPDFViewerMain();
+    // utopianTreeMain();
+    // angryProfessorMain();
+    nonDivisibleSubsetMain();
 }
 
 

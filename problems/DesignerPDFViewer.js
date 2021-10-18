@@ -17,7 +17,7 @@ function designerPDFViewer(h, word) {
 }
 
 function designerPDFViewerMain() {
-    document.writeln('Input : Array - [ 4,5,6,3,3,1], K - 7<br>');
+    document.writeln('Input : Array - [1, 3, 1, 3, 1, 4, 1, 3, 2, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 7], word - zaba<br>');
     document.writeln('Output : ');
 
     document.writeln(designerPDFViewer([1, 3, 1, 3, 1, 4, 1, 3, 2, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 7], 'zaba'));
