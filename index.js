@@ -7,7 +7,10 @@ function init() {
     // angryProfessorMain();
     // nonDivisibleSubsetMain();
     // plusMinusMain();
-    miniMaxSumMain();
+    // miniMaxSumMain();
+    // timeConversionMain();
+    // sparseArraysMain();
+    twoSumMain();
 }
 
 
