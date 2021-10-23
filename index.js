@@ -5,7 +5,9 @@ function init() {
     // designerPDFViewerMain();
     // utopianTreeMain();
     // angryProfessorMain();
-    nonDivisibleSubsetMain();
+    // nonDivisibleSubsetMain();
+    // plusMinusMain();
+    miniMaxSumMain();
 }
 
 
