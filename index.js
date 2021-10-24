@@ -10,7 +10,11 @@ function init() {
     // miniMaxSumMain();
     // timeConversionMain();
     // sparseArraysMain();
-    twoSumMain();
+    // twoSumMain();
+    // palindromeNumberMain();
+    // tomantoIntegerMain();
+    // integertoRomanMain();
+    longestCommonPrefixMain();
 }
 
 
