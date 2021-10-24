@@ -14,7 +14,10 @@ function init() {
     // palindromeNumberMain();
     // tomantoIntegerMain();
     // integertoRomanMain();
-    longestCommonPrefixMain();
+    // longestCommonPrefixMain();
+    // validParenthesesMain();
+    // mergeTwoSortedListMain();
+    removeDuplicatesfromSortedArrayMain();
 }
 
 
