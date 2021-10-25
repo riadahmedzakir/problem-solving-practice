@@ -17,7 +17,11 @@ function init() {
     // longestCommonPrefixMain();
     // validParenthesesMain();
     // mergeTwoSortedListMain();
-    removeDuplicatesfromSortedArrayMain();
+    // removeDuplicatesfromSortedArrayMain();
+    // removeElementMain();
+    // implementstrstrMain();
+    // searchInsertPositionMain();
+    maximumSubarrayMain();
 }
 
 
