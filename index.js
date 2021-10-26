@@ -21,7 +21,12 @@ function init() {
     // removeElementMain();
     // implementstrstrMain();
     // searchInsertPositionMain();
-    maximumSubarrayMain();
+    // maximumSubarrayMain();
+    // lengthofLastWordMain();
+    // plusOneMain();
+    // addBinaryMain();
+    // sqrtXMain();
+    climbingStairsMain();
 }
 
 
