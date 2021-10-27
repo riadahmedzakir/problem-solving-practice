@@ -1,13 +1,6 @@
 // Merge Two Sorted Lists
 // https://leetcode.com/problems/merge-two-sorted-lists/
 
-class ListNode {
-    constructor(val) {
-        this.val = val;
-        this.next = null;
-    }
-}
-
 function mergeTwoSortedList(l1, l2) {
     let mergedList = new ListNode();
     let head = mergedList;
@@ -32,18 +25,6 @@ function mergeTwoSortedList(l1, l2) {
     }
 
     return head.next;
-}
-
-function printList(list) {
-    let head = list.next;
-    let arr = [];
-
-    while (head) {
-        arr.push(head.val);
-        head = head.next;
-    }
-
-    document.writeln(arr);
 }
 
 function mergeTwoSortedListMain() {

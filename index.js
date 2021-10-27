@@ -26,7 +26,11 @@ function init() {
     // plusOneMain();
     // addBinaryMain();
     // sqrtXMain();
-    climbingStairsMain();
+    // climbingStairsMain();
+    // removeDuplicatesfromSortedListMain();
+    // mergeSortedArrayMain();
+    // binaryTreeInorderTraversalMain();
+    sameTreeMain();
 }
 
 
