@@ -30,7 +30,8 @@ function init() {
     // removeDuplicatesfromSortedListMain();
     // mergeSortedArrayMain();
     // binaryTreeInorderTraversalMain();
-    sameTreeMain();
+    // sameTreeMain();
+    SymmetricTreeMain();
 }
 
 
