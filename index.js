@@ -31,7 +31,8 @@ function init() {
     // mergeSortedArrayMain();
     // binaryTreeInorderTraversalMain();
     // sameTreeMain();
-    SymmetricTreeMain();
+    // SymmetricTreeMain();
+    MaximumDepthofBinaryTree();
 }
 
 
