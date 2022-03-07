@@ -683,3 +683,44 @@ View is the visual layer of the application. It displays the data contained insi
 ViewModel is an abstract layer of the application. A viewmodel handles the logic of the application. It manages the data of a model and displays it in the view.
 
 View and ViewModel are connected with data-binding (two-way data-binding in this case). Any change in the view, the viewmodel takes a note and changes the appropriate data inside the model.
+
+## What are decorators in Angular? 
+Decorators are a design pattern or functions that define how Angular features work. They are used to make prior modifications to a class, service, or filter. Angular supports four types of decorators, they are:
+
+- Class Decorators
+- Property Decorators
+- Method Decorators
+- Parameter Decorators
+
+## What are filters in Angular? Name a few of them.
+Filters are used to format an expression and present it to the user. They can be used in view templates, controllers, or services. Some inbuilt filters are as follows. 
+
+- date - Format a date to a specified format.
+- filter - Select a subset of items from an array.
+- Json - Format an object to a JSON string.
+- limitTo -  Limits an array/string, into a specified number of elements/characters.
+- lowercase - Format a string to lowercase.
+
+## What is view encapsulation in Angular?
+View encapsulation defines whether the template and styles defined within the component can affect the whole application or vice versa. Angular provides three encapsulation strategies:
+
+- Emulated - styles from the main HTML propagate to the component.
+- Native - styles from the main HTML do not propagate to the component. 
+- None - styles from the component propagate back to the main HTML and therefore are visible to all components on the page.
+
+
+## What are Template and Reactive forms?
+### Template-driven approach
+- In this method, the conventional form tag is used to create forms. Angular automatically interprets and creates a form object representation for the tag. 
+- Controls can be added to the form using the NGModel tag. Multiple controls can be grouped using the NGControlGroup module. 
+- A form value can be generated using the “form.value” object. Form data is exported as JSON values when the submit method is called. 
+- Basic HTML validations can be used to validate the form fields. In the case of custom validations, directives can be used. 
+- Arguably, this method is the simplest way to create an Angular App. 
+
+### Reactive Form Approach
+- This approach is the programming paradigm oriented around data flows and propagation of change. 
+- With Reactive forms, the component directly manages the data flows between the form controls and the data models. 
+- Reactive forms are code-driven, unlike the template-driven approach. 
+- Reactive forms break from the traditional declarative approach. 
+- Reactive forms eliminate the anti-pattern of updating the data model via two-way data binding.
+- Typically, Reactive form control creation is synchronous and can be unit tested with synchronous programming techniques. 
