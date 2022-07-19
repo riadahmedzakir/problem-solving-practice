@@ -36,3 +36,17 @@ If you’re familiar with any object-oriented programming language, you probably
 - private
 - protected
 - public
+
+## Inheritence 
+
+The key to understanding Inheritance is that it provides code re-usability. In place of writing the same code, again and again, we can simply inherit the properties of one class into the other.
+
+OOP is all about real-world objects and inheritance is a way of representing real-world relationships. Here’s an example – car, bus, bike – all of these come under a broader category called Vehicle. That means they’ve inherited the properties of class vehicles i.e all are used for transportation.
+
+Inheritance is the procedure in which one class inherits the attributes and methods of another class. The class whose properties and methods are inherited is known as the Parent class. And the class that inherits the properties from the parent class is the Child class.
+
+The interesting thing is, along with the inherited properties and methods, a child class can have its own properties and methods.
+
+## Polymorphism
+
+In computer science, it describes the concept that you can access objects of different types through the same interface. Each type can provide its own independent implementation of this interface.

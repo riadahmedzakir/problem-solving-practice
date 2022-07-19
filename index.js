@@ -32,7 +32,10 @@ function init() {
     // binaryTreeInorderTraversalMain();
     // sameTreeMain();
     // SymmetricTreeMain();
-    MaximumDepthofBinaryTree();
+    // MaximumDepthofBinaryTree();
+    // containsDuplicateMain();
+    // validAnagramMain();
+    groupAnagramMain();
 }
 
 
