@@ -13,8 +13,6 @@ var topKFrequent = function (nums, k) {
     for (let i = 0; i < nums.length; i++) {
         if (repeatationMap[nums[i]]) { repeatationMap[nums[i]] = repeatationMap[nums[i]] + 1; }
         else { repeatationMap[nums[i]] = 1; }
-
-        freq.push([]);
     }
 
     for (let i = 0; i <= nums.length; i++) {
